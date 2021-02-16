@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp7
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] myInts = new int[5];
+
+            foreach (int myInt in myInts)
+            {
+                Console.WriteLine(myInt);
+
+            }
+
+
+            
+        }
+    }
+}
